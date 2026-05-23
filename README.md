@@ -1,62 +1,107 @@
-# Project Title
+# Product Data Exploration using Microsoft Excel
 
-Simple overview of use/purpose.
+## Project Overview
+This project focuses on performing data exploration and analysis using Microsoft Excel. The dataset contains product-related information such as Product ID, Product Name, Brand Name, Quantity, Category, and Price.
 
-## Description
+The objective of this project is to apply Excel formulas and functions to summarize data, perform logical analysis, conditional calculations, and text extraction techniques.
 
-An in-depth paragraph about your project and overview of use.
+---
 
-## Getting Started
+## Dataset Information
+The dataset includes the following columns:
 
-### Dependencies
+- Product ID
+- Product Name
+- Brand Name
+- Quantity
+- Category
+- Price
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+---
 
-### Installing
+## Tasks Performed
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+### 1. Basic Data Exploration
+Performed calculations using Excel formulas:
 
-### Executing program
+- Total price of all products
+- Number of products in the dataset
+- Average product price
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+### 2. Minimum and Maximum Analysis
+Used Excel functions to identify:
 
-## Help
+- Minimum product price
+- Maximum product price
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+### 3. Logical Function – IF
+Created a new column called **Price Range**:
 
-## Authors
+- High Price → Price ≥ $500
+- Standard Price → Price < $500
 
-Contributors names and contact info
+### 4. Conditional Functions
+Applied:
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+- SUMIF → Total price of products in Electronics category
+- COUNTIF → Number of products with price less than $100
 
-## Version History
+### 5. Text Functions
+Extracted information from Product ID using:
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+- LEFT → Day
+- RIGHT → Country Code
+- MID → Month
 
-## License
+---
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+## Excel Functions Used
 
-## Acknowledgments
+| Function | Purpose |
+|---|---|
+| SUM | Calculate total price |
+| COUNTA | Count total products |
+| AVERAGE | Calculate average price |
+| MIN | Find minimum price |
+| MAX | Find maximum price |
+| IF | Categorize price range |
+| SUMIF | Sum values based on category |
+| COUNTIF | Count products based on condition |
+| LEFT | Extract first characters |
+| RIGHT | Extract last characters |
+| MID | Extract middle characters |
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)# Data-Analaysis-Project
+---
+
+## Project Files
+
+- `Product Data Exploration using Microsoft Excel.xlsx`
+- `Product Data Exploration using Microsoft Excel.pdf`
+
+---
+
+## Key Learning Outcomes
+
+- Data summarization using Excel
+- Conditional calculations
+- Logical analysis using IF function
+- Text extraction and transformation
+- Spreadsheet organization and formatting
+
+---
+
+## Tools Used
+
+- Microsoft Excel
+
+---
+
+## Conclusion
+
+This project helped in understanding the fundamentals of data analysis using Excel functions and formulas. It improved skills in data exploration, conditional logic, and text manipulation techniques commonly used in data analytics.
+
+---
+
+## Author
+
+**Hishaam J**ps://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)# Data-Analaysis-Project
